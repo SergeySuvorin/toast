@@ -1,0 +1,418 @@
+*{
+	margin:0;
+	padding:0;
+}
+
+body{
+	background-color: #fff !important;
+	height: 100vh !important;
+}
+
+h1{
+	margin-top: -200px !important;
+	margin-left: 220px;
+	width: 384px;
+height: 54px;
+color: #000000;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 36px;
+font-weight: 700;
+line-height: 54px;
+}
+
+.photo{
+	position: relative;
+	left:897px;
+	top: 180px;
+}
+
+.sif{
+color: #f4a800 !important;
+text-decoration: none !important;
+width: 34px;
+height: 16px;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+margin-left: 220px;
+}
+
+.form-control{
+	margin-left: 220px;
+	margin-top: 8px;
+	max-width: 384px;
+}
+
+.www{
+	margin-left: 220px;
+	margin-top: 32px;
+	width: 34px;
+height: 16px;
+color: #000000;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+}
+.create{
+width: 152px;
+height: 32px;
+color: #070019;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-radius: 4px;
+background-color: #d1d1d1;
+margin-left: 220px;
+margin-top: 40px;
+border-color: rgba(0,0,0,0);
+outline: none;
+}
+.cont1{
+	width: 127px;
+height: 32px;
+border-radius: 4px;
+background-color: #070019;
+margin-left: 100px;
+color: #ffffff;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-color: rgba(0,0,0,0);
+}
+
+.cont1:hover{
+		width: 127px;
+height: 32px;
+border-radius: 4px;
+background-color: #070019;
+opacity: 0.8;
+color: #ffffff;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-color: rgba(0,0,0,0);
+}
+
+.sign{
+	width: 384px;
+height: 16px;
+opacity: 0.4;
+color: #000000;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+margin-left: 220px;
+text-align: center;
+margin-top: 60px;
+}
+.apple{
+width: 120px;
+height: 32px;
+border-radius: 4px;
+background-color: #000000;
+color: #ffffff;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-color: rgba(0,0,0,0);
+margin-left: 220px;
+}
+
+.goog{
+width: 120px;
+height: 32px;
+border-radius: 4px;
+background-color: #3f82f8;
+color: #ffffff;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-color: rgba(0,0,0,0);
+margin-left: 12px;
+}
+
+.face{
+width: 120px;
+height: 32px;
+border-radius: 4px;
+background-color: #4460a0;
+color: #ffffff;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+border-color: rgba(0,0,0,0);
+margin-left: 12px;
+}
+
+.buttss{
+	margin-top: 32px;
+}
+
+@font-face {
+font-family: 'San Francisco Pro Display Semibold';
+src: url('SFProDisplay-Semibold.eot');
+src: url('SFProDisplay-Semibold.eot?#iefix') format('embedded-opentype'),
+url('SFProDisplay-Semibold.woff') format('woff'),
+url('SFProDisplay-Semibold.ttf') format('truetype');
+font-weight: normal;
+font-style: normal;
+}
+
+.help{
+	width: 98px;
+height: 32px;
+border-radius: 4px;
+background-color: #d1d1d1;
+border:none;
+color: #070019;
+font-family: "SF Pro Display";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+margin-right: 28px;
+outline: none !important;
+}
+
+.nav-link{
+	color: #070019 !important;
+font-family: "SF Pro Display";
+font-size: 14px;
+font-weight: 600;
+line-height: 16px;
+padding-right:28px !important;
+}
+
+.point{
+	width: 12px;
+height: 4px;
+transform: rotate(90deg);
+}
+
+.navbar{
+	align-items: right;
+}
+
+.point{
+	padding-top: 20px;
+}
+
+.ee{
+	margin-right: 10px;
+}
+
+.dropdown-menu{
+	width: 220px !important;
+height: 112px !important;
+box-shadow: 0 4px 32px 4px rgba(0, 0, 0, 0.12) !important;
+border-radius: 4px !important;
+border: 1px solid rgba(0, 0, 0, 0.16) !important;
+background-color: #ffffff !important;
+color: #000000 !important;
+font-family: "San Francisco Pro Display Semibold" !important;
+font-size: 14px !important;
+font-weight: 500 !important;
+line-height: 16px !important;
+}
+
+.dropdown-item{
+	color: #000000 !important;
+font-family: "San Francisco Pro Display Semibold" !important;
+font-size: 14px !important;
+font-weight: 500 !important;
+line-height: 16px !important;
+margin-bottom: 10px;
+}
+
+.aa{
+color: #f4a800 !important;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 14px !important;
+font-weight: 600 !important;
+line-height: 16px !important;
+outline: none !important;
+}
+.btn{
+border-radius: 4px !important;
+background-color: #f4a800 !important;
+outline: none !important;
+font-family: "San Francisco Pro Display Semibold";
+}
+
+.navbar-brand{
+	padding-right: 600px;
+}
+
+.navbar-toggler{
+	border:none !important;;
+}
+.navbar-toggler-icon{
+	position: absolute;
+	right: 5px;
+}
+
+.bra{
+	width: 104px;
+height: 32px;
+border-radius: 4px;
+background-color: #d1d1d1;
+border: none;
+
+}
+
+
+.rex{
+	padding-bottom: 5px;
+}
+
+.ico{
+	padding-bottom: 5px;
+	margin-right: 5px;
+}
+
+
+@media (max-width: 600px) {
+  .body {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+  }
+}
+
+
+@media (max-width: 600px) {
+  .create, .cont1{
+    display:none;
+  }
+}
+
+
+@media screen and (max-width: 0em), screen and (min-width: 600px){
+.show-for-small-only {
+    display: none !important;
+}
+}
+@media screen and (max-width: 600px){
+.hide-for-small-only {
+    display: none !important;
+}
+}
+
+@media (max-width: 600px) {
+  .pht, h1{
+    text-align:center;
+    margin-top: 20px !important;
+    margin:0;
+    padding:0;
+    width: 350px;
+  }
+}
+
+@media (max-width: 600px) {
+  .sif, .www, .form-control, .sign, .apple{
+    text-align:center;
+    margin-top: 20px !important;
+    margin-left: 20px !important;
+    margin:0;
+    padding:0;
+  }
+}
+
+@media (max-width: 600px) {
+  .bra, .navbar-brand{
+    background-color: rgba(0,0,0,0);
+    position: absolute;
+    top:5px;
+    left: 5px;
+    padding: 0 !important;
+  }
+}
+
+@media (max-width: 600px) {
+  .navbar-collapse{
+  	height: 100vh;
+  	width: 100vw;
+      }
+}
+
+@media (max-width: 600px) {
+  .nav-link{
+  	padding: 28px !important;
+  	color: #000000;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+      }
+}
+
+@media (max-width: 600px) {
+  .help{
+background-color:rgba(0,0,0,0);
+  	color: #000000;
+font-family: "San Francisco Pro Display Semibold";
+font-size: 24px;
+font-weight: 700;
+line-height: 36px;
+width: 180px;
+height: 36px;
+      }
+}
+
+@media (max-width: 600px) {
+  .ee, .eew, .btn{
+display: none !important;
+      }
+}
+
+@media (max-width: 600px) {
+  .wew{
+  	background-color: #ffc31e; 
+      }
+}
+
+@media (max-width: 600px) {
+  .aa{
+  	 color: #000000 !important;
+font-family: "San Francisco Pro Display Semibold" !important;
+font-size: 24px !important;
+font-weight: 700 !important;
+line-height: 36px !important;
+      }
+}
+
+@media (max-width: 600px) {
+  .dropdown-menu{
+  	 border: none !important;
+  	 width: 100vw !important;
+  	 background-color: #fff !important;
+  	 margin-bottom: 28px !important;
+  	 height: 135px !important;
+
+      }
+}
+
+
+@media (max-width: 600px) {
+  .dropdown-item{
+  	color: #060019 !important;
+font-family: "San Francisco Pro Display Semibold" !important;
+font-size: 18px !important;
+font-weight: 600 !important;
+line-height: 24px !important;
+      }
+}
+
+@media (max-width: 600px) {
+  .nav-link.dropdown-toggle::after{
+  	display: none !important;
+      }
+}
